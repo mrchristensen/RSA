@@ -60,16 +60,18 @@ def check_prime_numbers(num_1, num_2):
         print(f'(p−1)(q−1) and e were not relatively prime, gcd is: {gcd((num_1 - 1) * (num_2 - 1), e)}')
         return False
 
+    return True
+
 
 if __name__ == '__main__':
     phi = (p - 1) * (q - 1)
 
+    if check_prime_numbers(p, q):
+        print("p and q passed prime checks")
+
     print(f'p = {p}')
     print(f'q = {q}')
     print(f'phi = {phi}')
-
-    if check_prime_numbers(p, q):
-        print("p and q passed prime checks")
 
     n = p * q
     print(f'n = {n}')
