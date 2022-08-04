@@ -1,4 +1,6 @@
-# RSA
+# RSA Implementation
+
+This is a fully functional implementation of [RSA](https://en.wikipedia.org/wiki/RSA_(cryptosystem)), which involves finding multiplicative inverses and modular exponentiation.
 
 ## How to Run the Code
 The values are hard coded in, so simply run ```python main.py``` to find the values needed for RSA
