@@ -3,7 +3,7 @@
 This is a fully functional implementation of [RSA](https://en.wikipedia.org/wiki/RSA_(cryptosystem)), which involves finding multiplicative inverses and modular exponentiation.
 
 ## How to Run the Code
-The values are hard coded in, so simply run ```python main.py``` to find the values needed for RSA
+The values are hard coded in, so simply run [```python main.py```](/main.py) to find the values needed for RSA
 
 ## Values
 * The values *p* adn *q* are found using openssl to find a safe prime of 512 bites (```openssl prime -safe -generate -bits 512```) (the values are also checked such that the high order bit is set as well as *e* and *phi* being relatively prime)
